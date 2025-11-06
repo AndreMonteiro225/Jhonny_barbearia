@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       {/* Usamos a classe global .container e a local .headerNav */}
-      <nav className={`${styles.container} ${styles.headerNav}`}>
+      <nav className={`container ${styles.headerNav}`}>
         <Link href="/" className={styles.headerLogo} onClick={handleLinkClick}>
           JOHNNY'S
         </Link>
