@@ -1,4 +1,3 @@
-import { Heart } from 'lucide-react'
 import styles from './footer.module.css' // Importa o CSS Module
 
 export default function Footer() {
