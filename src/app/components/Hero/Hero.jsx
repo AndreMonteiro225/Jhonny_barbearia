@@ -10,7 +10,7 @@ export default function Hero() {
         <span>Corte Moderno.</span>
       </h1>
       <p className={styles.heroSubtitle}>
-        A navalha perfeita e a tesoura certa. A sua melhor versão começa aqui na Barbearia do Johnny.
+        A sua melhor versão começa aqui na Barbearia do Johnny.
       </p>
       
       <a 
