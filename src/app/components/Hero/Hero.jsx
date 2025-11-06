@@ -1,5 +1,5 @@
 import { Calendar } from 'lucide-react'
-import styles from './Hero.module.css' // Importa o CSS Module
+import styles from './hero.module.css' // Importa o CSS Module
 
 export default function Hero() {
   return (
