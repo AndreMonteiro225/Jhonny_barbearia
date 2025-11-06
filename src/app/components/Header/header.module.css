@@ -17,7 +17,7 @@
 }
 
 .headerLogo {
-  font-size: 1.875rem;
+  font-size: 1.975rem;
   font-weight: 700;
   font-family: var(--font-heading);
   color: var(--color-primary);
@@ -25,13 +25,15 @@
 
 .headerLinks {
   display: none;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 .headerLinks a {
   transition: color 0.3s ease;
 }
 .headerLinks a:hover {
   color: var(--color-primary);
+  transform: scale(1.10);
+  
 }
 
 .headerCta {
