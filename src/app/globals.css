@@ -1,33 +1,46 @@
+/* --- 1. :root (Variáveis Globais) --- */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Cores */
+  --color-primary: #f59e0b;
+  --color-primary-dark: #ca8a04;
+  --color-bg: #18181b;
+  --color-card: #27272a;
+  --color-border: #3f3f46;
+  --color-text-light: #f4f4f5;
+  --color-text-medium: #a1a1aa;
+  --color-text-dark: #18181b;
+  --color-whatsapp: #25D366;
+  --color-whatsapp-hover: #1DAE53;
+  --color-heart: #ef4444;
+
+  /* Fontes (do layout.jsx) */
+  --font-body: var(--font-roboto), sans-serif;
+  --font-heading: var(--font-oswald), sans-serif;
+
+  /* Outros */
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --border-radius: 0.5rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* --- 2. Reset Básico --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-html,
+html {
+  scroll-behavior: smooth; /* RFN-02 */
+}
+
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text-light);
+  font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 a {
@@ -35,8 +48,58 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+ul {
+  list-style: none;
+}
+
+img, iframe {
+  max-width: 100%;
+  display: block;
+}
+
+/* --- 3. Estilos Globais (Tipografia) --- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* --- 4. Classes de Layout Compartilhadas --- */
+
+/* Classe utilitária para os contêineres principais */
+.container {
+  width: 100%;
+  max-width: 1140px; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* Ajuste para rolagem da âncora (devido ao header fixo) */
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+/* --- Seção (Geral) --- */
+.section {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.section__title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+.section__subtitle {
+  text-align: center;
+  color: var(--color-text-medium);
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .section {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
   }
 }

@@ -1,0 +1,49 @@
+.servicesCard {
+  margin-top: 2.5rem;
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--color-card);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-xl);
+  padding: 1.5rem;
+  overflow: hidden;
+}
+
+.servicesItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  gap: 1rem;
+}
+.servicesItem + .servicesItem {
+  border-top: 1px solid var(--color-border);
+}
+.servicesItem div {
+  flex-grow: 1;
+}
+.servicesItem h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-family: var(--font-heading);
+}
+.servicesItem p {
+  color: var(--color-text-medium);
+  font-size: 0.875rem;
+}
+.servicesPrice {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  flex-shrink: 0;
+  margin-left: 1rem;
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .servicesCard {
+    padding: 2.5rem;
+  }
+}

@@ -1,0 +1,21 @@
+.footer {
+  border-top: 1px solid var(--color-border);
+  margin-top: 5rem;
+}
+.footerContent {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: var(--color-text-medium);
+}
+.footerCredits {
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.footerHeart {
+  color: var(--color-heart);
+  fill: var(--color-heart);
+}

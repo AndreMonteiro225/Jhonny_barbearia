@@ -1,0 +1,16 @@
+.floatingWhatsapp {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 50;
+  background-color: var(--color-whatsapp);
+  color: white;
+  padding: 1rem;
+  border-radius: 9999px;
+  box-shadow: var(--shadow-lg);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.floatingWhatsapp:hover {
+  background-color: var(--color-whatsapp-hover);
+  transform: scale(1.1);
+}
