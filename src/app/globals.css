@@ -1,4 +1,3 @@
-/* --- 1. :root (Variáveis Globais) --- */
 :root {
   /* Cores */
   --color-primary: #f59e0b;
@@ -17,7 +16,7 @@
   --font-body: var(--font-roboto), sans-serif;
   --font-heading: var(--font-oswald), sans-serif;
 
-  /* Outros */
+  /* sombras padrão */
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
@@ -32,7 +31,7 @@
 }
 
 html {
-  scroll-behavior: smooth; /* RFN-02 */
+  scroll-behavior: smooth; 
 }
 
 body {
@@ -61,8 +60,6 @@ img, iframe {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
 }
-
-/* --- 4. Classes de Layout Compartilhadas --- */
 
 /* Classe utilitária para os contêineres principais */
 .container {

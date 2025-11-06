@@ -100,7 +100,6 @@
   text-align: center;
 }
 
-/* Responsividade */
 @media (min-width: 768px) {
   .headerLinks {
     display: flex;

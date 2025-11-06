@@ -1,11 +1,11 @@
-"use client"
-import { MessageCircle } from 'lucide-react'
-import styles from './floatingwhatsappbutton.module.css' // Importa o CSS Module
+"use client";
+import { MessageCircle } from 'lucide-react';
+import styles from './floatingwhatsappbutton.module.css';
 
 export default function FloatingWhatsAppButton() {
   return (
     <a 
-      href="https://wa.me/5511999998888?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!" 
+      href="https://wa.me/5511954939422?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!" 
       target="_blank" 
       rel="noopener noreferrer"
       aria-label="Agendar horário via WhatsApp"

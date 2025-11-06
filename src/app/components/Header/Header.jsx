@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
-import styles from './header.module.css' // Importa o CSS Module
+import styles from './header.module.css' 
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -13,7 +13,6 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      {/* Usamos a classe global .container e a local .headerNav */}
       <nav className={`container ${styles.headerNav}`}>
         <Link href="/" className={styles.headerLogo} onClick={handleLinkClick}>
           JOHNNY'S
@@ -26,7 +25,7 @@ export default function Header() {
         </div>
 
         <a 
-          href="https://wa.me/5511999998888?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!" 
+          href="https://wa.me/5511954939422?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!" 
           target="_blank" 
           rel="noopener noreferrer"
           className={styles.headerCta}

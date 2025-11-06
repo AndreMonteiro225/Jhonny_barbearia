@@ -10,7 +10,6 @@ const servicesList = [
 
 export default function Services() {
   return (
-    // Usamos as classes globais .section e .section__title
     <section id="servicos" className="container section">
       <h2 className="section__title">Nossos Serviços</h2>
       <div className={styles.servicesCard}>

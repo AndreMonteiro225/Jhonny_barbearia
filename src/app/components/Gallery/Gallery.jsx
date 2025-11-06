@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from './gallery.module.css'; // Importa o CSS Module
+import styles from './gallery.module.css'; 
 
 const galleryImages = [
   { src: "/imgCorte1.webp", alt: "Exemplo de corte de cabelo moderno" },
@@ -14,7 +14,6 @@ const galleryImages = [
 
 export default function Gallery() {
   return (
-    // Usamos classes globais
     <section id="galeria" className="section container">
       <h2 className="section__title">Galeria</h2>
       <p className="section__subtitle">Veja alguns dos nossos trabalhos</p>
