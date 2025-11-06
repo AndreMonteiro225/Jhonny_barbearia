@@ -37,10 +37,8 @@ export default function Location() {
             </p>
             <p className={`${styles.locationDetailItem}`}>
                 <Phone size={20} />
-              <span>
-                <p className={styles.ident}>
+              <span className={styles.ident}>
                 <strong>WhatsApp: </strong>(11) 95493-9422
-                </p>
               </span>
             </p>
           </div>
