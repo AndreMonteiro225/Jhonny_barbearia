@@ -4,24 +4,24 @@ import FloatingWhatsAppButton from './components/FloatingWhatsAppButton/Floating
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
-// Otimização de Fontes (RFN-04 / RFN-05)
+// Otimização de Fontes
 const oswald = Oswald({
   subsets: ['latin'],
   weight: ['400', '500', '700'],
-  variable: '--font-oswald', // Variável CSS para o globals.css
+  variable: '--font-oswald',
 })
 
 const roboto = Roboto({
   subsets: ['latin'],
   weight: ['400', '500'],
-  variable: '--font-roboto', // Variável CSS para o globals.css
+  variable: '--font-roboto',
 })
 
-// Meta Tags de SEO (RFN-06)
+// Meta Tags de SEO
 export const metadata = {
   title: 'Barbearia do Johnny - Cortes, Barba e Estilo',
   description: 'Barbearia do Johnny: Especialistas em cortes de cabelo e barba. Veja nossos serviços, preços e agende seu horário via WhatsApp.',
-  keywords: 'barbearia, barbeiro, corte de cabelo, barba, agendamento, [Nome do Bairro/Cidade]',
+  keywords: 'barbearia, barbeiro, corte de cabelo, barba, Perdizes, São Paulo',
   robots: 'index, follow',
 }
 
