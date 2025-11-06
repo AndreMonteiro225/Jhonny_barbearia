@@ -1,6 +1,6 @@
 "use client"
 import { MessageCircle } from 'lucide-react'
-import styles from './floatingWhatsAppButton.module.css' // Importa o CSS Module
+import styles from './floatingwhatsappbutton.module.css' // Importa o CSS Module
 
 export default function FloatingWhatsAppButton() {
   return (

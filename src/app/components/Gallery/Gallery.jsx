@@ -22,7 +22,7 @@ export default function Gallery() {
       <div className={styles.galleryGrid}>
         
         {galleryImages.map((image) => (
-          <a key={image.src} href={image.src} data-lightbox="galeria" className={styles.galleryItem}>
+          <div key={image.src} data-lightbox="galeria" className={styles.galleryItem}>
             <Image 
               src={image.src}
               alt={image.alt}
@@ -30,7 +30,7 @@ export default function Gallery() {
               height={600} 
               className={styles.galleryImage}
             />
-          </a>
+          </div>
         ))}
 
       </div>

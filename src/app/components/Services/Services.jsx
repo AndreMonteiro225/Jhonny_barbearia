@@ -1,4 +1,4 @@
-import styles from './Services.module.css' // Importa o CSS Module
+import styles from './services.module.css' // Importa o CSS Module
 
 const servicesList = [
   { name: "Corte ", description: "Tradição e estilo no seu dia a dia.", price: "R$ 60" },
