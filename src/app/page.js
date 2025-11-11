@@ -10,14 +10,9 @@ import Location from './components/Location/Location';
 export default function Home() {
   return (
     <>
-      {/* Usamos as classes 'container' e 'main-container'
-        definidas em globals.css para centrar o conteúdo.
-      */}
-      <main className={`${styles.mainContainer} ${styles.container}`}>
-        {/* RFN-02: Navegação One-Page.
-          As seções abaixo têm os IDs correspondentes
-          para os links âncora do Header.
-        */}
+      
+      <main className={`${styles.mainContainer}`}>
+        
         <Hero />
         <Services />
         <Gallery />

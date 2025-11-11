@@ -89,6 +89,7 @@ section[id] {
 }
 .section__subtitle {
   text-align: center;
+    font-size: 1.3rem;
   color: var(--color-text-medium);
   margin-top: 0.5rem;
   margin-bottom: 2.5rem;
