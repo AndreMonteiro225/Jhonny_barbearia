@@ -1,11 +1,11 @@
 .floatingWhatsapp {
   position: fixed;
-  bottom: 1.5rem;
+  bottom: 3.5rem;
   right: 1.5rem;
   z-index: 50;
   background-color: var(--color-whatsapp);
   color: white;
-  padding: 1rem;
+  padding: .8rem;
   border-radius: 9999px;
   box-shadow: var(--shadow-lg);
   transition: transform 0.3s ease, background-color 0.3s ease;

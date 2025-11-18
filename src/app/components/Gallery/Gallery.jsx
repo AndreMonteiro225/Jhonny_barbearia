@@ -16,7 +16,7 @@ export default function Gallery() {
   return (
     <section id="galeria" className="section container">
       <h2 className="section__title">Galeria</h2>
-      <p className="section__subtitle">Veja alguns dos nossos trabalhos</p>
+      <h3 className={`section__subtitle ${styles.gallerySubtitle}`}>Veja alguns dos nossos trabalhos</h3>
 
       <div className={styles.galleryGrid}>
         

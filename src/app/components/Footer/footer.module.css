@@ -3,19 +3,21 @@
   margin-top: 5rem;
 }
 .footerContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  text-align: center;
+  align-items: center;
   color: var(--color-text-medium);
 }
-.footerCredits {
-  font-size: 0.875rem;
-  margin-top: 0.5rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.25rem;
+
+.footerContent svg {
+  margin-right: .2rem;
+  transform: translateY(0.5rem);
 }
-.footerHeart {
-  color: var(--color-heart);
-  fill: var(--color-heart);
+
+.footerCredit a {
+  color: var(--color-primary);
 }

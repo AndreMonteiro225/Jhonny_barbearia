@@ -18,6 +18,24 @@
   padding-bottom: 1.25rem;
   gap: 1rem;
 }
+
+.servicesItem:hover {
+  background-color: var(--color-border);
+  cursor: pointer;
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-xl);
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  
+}
+
+.servicesItem:hover p, .servicesItem:hover span {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
 .servicesItem + .servicesItem {
   border-top: 1px solid var(--color-border);
 }

@@ -1,4 +1,4 @@
-import { MapPin, Clock, Navigation, Phone } from "lucide-react";
+import { MapPin, Clock, Navigation, Phone, Instagram } from "lucide-react";
 import styles from "./location.module.css";
 
 export default function Location() {
@@ -13,11 +13,11 @@ export default function Location() {
           <div className={styles.locationDetails}>
             <p className={styles.locationDetailItem}>
               <MapPin size={20} />
-              <span>
-                Avenida professor alfonso bovero 1016 - Perdizes
+              <strong>
+                Avenida professor alfonso bovero 1016 - Pompéia
                 <br />
                 São Paulo - SP, 05019-011
-              </span>
+              </strong>
             </p>
             <p className={styles.locationDetailItem}>
               <Clock size={20} />
@@ -36,11 +36,23 @@ export default function Location() {
               </span>
             </p>
             <p className={`${styles.locationDetailItem}`}>
-                <Phone size={20} />
+              <Phone size={20} />
               <span className={styles.ident}>
                 <strong>WhatsApp: </strong>(11) 95493-9422
               </span>
             </p>
+            <p className={`${styles.locationDetailItem}`}>
+              
+                <strong><Instagram /> </strong>
+              <span className={styles.ident}>
+                <a
+                href="https://www.instagram.com/johnnyanchietaa/"
+                target="_blank"
+                rel="noopener noreferrer"
+              ><strong>@johnnyanchietaa</strong></a>
+              </span>
+            </p>
+          
           </div>
 
           <a
