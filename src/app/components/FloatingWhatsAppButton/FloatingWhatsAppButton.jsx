@@ -1,5 +1,5 @@
 "use client";
-import { MessageCircle } from 'lucide-react';
+import { FaWhatsapp } from "react-icons/fa";
 import styles from './floatingwhatsappbutton.module.css';
 
 export default function FloatingWhatsAppButton() {
@@ -11,7 +11,7 @@ export default function FloatingWhatsAppButton() {
       aria-label="Entrar em contato via WhatsApp"
       className={styles.floatingWhatsapp} // Usa o estilo do módulo
     >
-      <MessageCircle size={32} />
+      <FaWhatsapp size={40} />
     </a>
   )
 }
