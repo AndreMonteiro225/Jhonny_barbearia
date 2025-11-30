@@ -2,8 +2,8 @@ import Image from 'next/image';
 import styles from './gallery.module.css'; 
 
 const galleryImages = [
-  { src: "/imgCorte1.webp", alt: "Exemplo de corte de cabelo moderno" },
-  { src: "/imgCorte2.webp", alt: "Exemplo de barba terapia" },
+  { src: "/imgCorte1.webp", alt: "Corte degradê fade masculino na Pompeia SP" },
+  { src: "/imgCorte2.webp", alt: "Design de barba e barboterapia profissional" },
   { src: "/imgCorte3.webp", alt: "Exemplo de corte degradê (fade)" },
   { src: "/imgCorte4.webp", alt: "Exemplo de corte clássico" },
   { src: "/imgCorte5.webp", alt: "Exemplo de corte navalhado" },
