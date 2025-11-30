@@ -3,6 +3,7 @@ import "./globals.css";
 import FloatingWhatsAppButton from "./components/FloatingWhatsAppButton/FloatingWhatsAppButton";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import { GoogleTagManager } from '@next/third-parties/google';
 
 // Otimização de Fontes
 const oswald = Oswald({
@@ -118,6 +119,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
+      
+      <GoogleTagManager gtmId="GTM-MNS8R2H8" />
+      
       <body className={`${oswald.variable} ${roboto.variable}`}>
         <Header />
 
