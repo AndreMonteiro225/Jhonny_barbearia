@@ -4,12 +4,12 @@ import styles from './gallery.module.css';
 const galleryImages = [
   { src: "/imgCorte1.webp", alt: "Corte degradê fade masculino na Pompeia SP" },
   { src: "/imgCorte2.webp", alt: "Design de barba e barboterapia profissional" },
-  { src: "/imgCorte3.webp", alt: "Exemplo de corte degradê (fade)" },
-  { src: "/imgCorte4.webp", alt: "Exemplo de corte clássico" },
-  { src: "/imgCorte5.webp", alt: "Exemplo de corte navalhado" },
-  { src: "/imgCorte6.webp", alt: "Exemplo de barba desenhada" },
-  { src: "/imgCorte7.webp", alt: "Exemplo de barba desenhada" },
-  { src: "/imgCorte8.webp", alt: "Exemplo de barba desenhada" },
+  { src: "/imgCorte3.webp", alt: "corte de cabelo masculino" },
+  { src: "/imgCorte4.webp", alt: "corte de cabelo em Perdizes" },
+  { src: "/imgCorte5.webp", alt: "Barba desenhada" },
+  { src: "/imgCorte6.webp", alt: "Barbearia" },
+  { src: "/imgCorte7.webp", alt: "Barbearia Pompeia" },
+  { src: "/imgCorte8.webp", alt: "degradê" },
 ]
 
 export default function Gallery() {

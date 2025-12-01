@@ -21,6 +21,13 @@
   font-weight: 700;
   font-family: var(--font-heading);
   color: var(--color-primary);
+  text-shadow:
+    0 0 4px rgba(255, 255, 255, 0.9),
+    /* brilho interno */
+    0 0 12px var(--color-primary),
+    /* brilho colorido */
+    0 0 28px rgba(0, 0, 0, 0.25);
+  /* profundidade/halo */
 }
 
 .headerLinks {
