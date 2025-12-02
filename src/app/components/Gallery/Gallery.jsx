@@ -3,7 +3,7 @@ import styles from './gallery.module.css';
 
 const galleryImages = [
   { src: "/imgCorte1.webp", alt: "Corte degradê fade masculino na Pompeia SP" },
-  { src: "/imgCorte2.webp", alt: "Design de barba e barboterapia profissional" },
+  { src: "/imgCorte2.webp", alt: "Design de barba feito na navalha em Pompeia SP" },
   { src: "/imgCorte3.webp", alt: "corte de cabelo masculino" },
   { src: "/imgCorte4.webp", alt: "corte de cabelo em Perdizes" },
   { src: "/imgCorte5.webp", alt: "Barba desenhada" },
