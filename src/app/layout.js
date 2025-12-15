@@ -37,7 +37,7 @@ keywords:
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://barbeariadojohnny.com.br",
+    url: "https://www.barbeariadojohnny.com.br",
     siteName: "Barbearia do Johnny",
     images: [
       {
@@ -75,7 +75,7 @@ keywords:
 
 export default function RootLayout({ children }) {
   // URL base do seu site (substitua pela URL final de produção)
-  const baseUrl = "https://barbeariadojohnny.com.br"; 
+  const baseUrl = "https://www.barbeariadojohnny.com.br"; 
 
   const jsonLd = {
     "@context": "https://schema.org",
