@@ -37,7 +37,7 @@ keywords:
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://johnny-barbearia.vercel.app/",
+    url: "https://barbeariadojohnny.com.br",
     siteName: "Barbearia do Johnny",
     images: [
       {
@@ -75,7 +75,7 @@ keywords:
 
 export default function RootLayout({ children }) {
   // URL base do seu site (substitua pela URL final de produção)
-  const baseUrl = "https://johnny-barbearia.vercel.app"; 
+  const baseUrl = "https://barbeariadojohnny.com.br"; 
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -95,8 +95,8 @@ export default function RootLayout({ children }) {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": -23.5373648,
-      "longitude": -46.6869884
+      "latitude": -23.5353927,
+      "longitude": -46.6801928
     },
     "openingHoursSpecification": [
       {
