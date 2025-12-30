@@ -30,14 +30,17 @@ export const metadata = {
   title: "Barbearia do Johnny | Melhor Corte e Barba na Pompeia, SP",
   description:
 "Procurando barbearia na Pompeia? O Johnny é especialista em cortes modernos, degradê e navalhado.",
-keywords:
-    "barbearia, barbeiro, corte de cabelo, barba, Pompeia, São Paulo, Perdizes, serviços de barbearia",
+    // Canonical: Garante que o Google saiba que essa é a versão original (sem www)
+  alternates: {
+    canonical: '/',
+  },
+  keywords: "barbearia, barbeiro, corte de cabelo, barba, Pompeia, São Paulo, Perdizes, serviços de barbearia",
   authors: [{ name: "Johnny Anchieta" }],
   creator: "Barbearia do Johnny",
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    url: "https://www.barbeariadojohnny.com.br",
+    url: "https://barbeariadojohnny.com.br",
     siteName: "Barbearia do Johnny",
     images: [
       {
@@ -47,13 +50,6 @@ keywords:
         alt: "Barbearia do Johnny",
       },
     ],
-  },
-
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
-    twitter: "/favicon.ico",
   },
 
   robots: {
@@ -75,7 +71,7 @@ keywords:
 
 export default function RootLayout({ children }) {
   // URL base do seu site (substitua pela URL final de produção)
-  const baseUrl = "https://www.barbeariadojohnny.com.br"; 
+  const baseUrl = "https://barbeariadojohnny.com.br"; 
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -87,7 +83,7 @@ export default function RootLayout({ children }) {
     "telephone": "+5511954939422",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Av. Prof. Alfonso Bovero, 1016",
+      "streetAddress": "Av. Prof. Alfonso Bovero, 1016 - Pompeia",
       "addressLocality": "São Paulo",
       "addressRegion": "SP",
       "postalCode": "05019-011", 
@@ -98,6 +94,20 @@ export default function RootLayout({ children }) {
       "latitude": -23.537801,
       "longitude": -46.6843796
     },
+    "areaServed": [
+      {
+        "@type": "Neighborhood",
+        "name": "Pompeia"
+      },
+      {
+        "@type": "Neighborhood",
+        "name": "Perdizes"
+      },
+      {
+        "@type": "Neighborhood",
+        "name": "Vila Pompeia"
+      }
+    ],
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",

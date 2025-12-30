@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const baseUrl = 'https://www.barbeariadojohnny.com.br';
+  const baseUrl = 'https://barbeariadojohnny.com.br';
 
   return [
     {
