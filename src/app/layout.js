@@ -95,8 +95,8 @@ export default function RootLayout({ children }) {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": -23.5353927,
-      "longitude": -46.6801928
+      "latitude": -23.537801,
+      "longitude": -46.6843796
     },
     "openingHoursSpecification": [
       {

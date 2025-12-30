@@ -23,7 +23,16 @@ export default function Location() {
               <Clock size={20} />
               <span>
                 <strong>Terça a Sexta:</strong> 9h às 18:30h
+                <br />
+                <strong>Exceções de Feriados de Fim de Ano:</strong>
+                <br />
+                <strong>Quarta-feira dia 31 de dezembro: 9h às 15h</strong>
+                <br />
+                <strong>Quinta-feira dia 01 de janeiro: <i>Fechado</i></strong>
+                <br />
+                <strong>Sexta-feira dia 02 de janeiro: <i>Fechado</i></strong>
               </span>
+
             </p>
             <p className={`${styles.locationDetailItem} ${styles.indent}`}>
               <span>
