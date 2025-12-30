@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://www.barbeariadojohnny.com.br/sitemap.xml',
+    sitemap: 'https://barbeariadojohnny.com.br/sitemap.xml',
   }
 }
